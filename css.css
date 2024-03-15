@@ -1,0 +1,33 @@
+h1{
+  text-align: center;
+}
+
+h2 {
+  background-color: bisque;
+  margin: 2px;
+  border: 1px solid black;
+  padding: auto;
+  width: 120px;
+  height:auto;
+  text-align: center;
+  position: relative;
+  float: right;
+}
+
+@media (min-width: 992px) {
+      .menu-box {
+        width: 50%;
+      }
+    }
+    
+@media (max-width: 991px) and (min-width: 768px) {
+      .menu-box {
+        width: 33%;
+      }
+    }
+    
+    @media (min-width: 767px) {
+      .menu-box {
+        width: 25%;
+      }
+    }
